@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Customers Avatars */
+.avatars img:not(:first-child) {
+  margin-left: -1.5rem;
+}
+
+/* Card Info Hover */
+.card:hover
+.info {
+  opacity: 5;
+}
+
+.card:hover
+.meal-img {
+  transform: scale(1.07);
+}
+
+/* Title Banner */
+.title-banner {
+
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
